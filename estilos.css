@@ -4,8 +4,16 @@
 	box-sizing: border-box;
 }
 .imagen_dentro {
+    clear: both;
+    display: table;
+    margin: auto;
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+    position: fixed;
+    right: 5%;
+    border-style: double;
+    border-color: brown;
 }
 
 #foto {
